@@ -1,0 +1,1786 @@
+layout MetalRouting_LO(ANCHORx, ANCHORy, ANCHORa) {
+    ml::setPort(this: ANCHOR->[ANCHORx, ANCHORy, ANCHORa]);
+    
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[358.0, 235.0, 135.0000000000001], cout->this@ANCHOR+[339.03, 253.96999999999997, 135.0000000000001]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[358.0, 204.0, 90.0], cout->this@ANCHOR+[358.0, 235.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[339.03, 253.96999999999997, 179.9991051030143], cout->this@ANCHOR+[275.005, 253.971, 179.9991051030143]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[275.005, 253.971, 135.0], cout->this@ANCHOR+[262.996, 265.98, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[262.996, 265.98, 179.99934155648313], cout->this@ANCHOR+[175.97899999999998, 265.981, 179.99934155648313]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[175.97899999999998, 266.021, 135.0], cout->this@ANCHOR+[175.0, 267.0, 135.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[175.0, 267.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[175.97899999999998, 265.981, 90.0], cout->this@ANCHOR+[175.97899999999998, 266.021, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[175.0, 267.0, 90.0], cout->this@ANCHOR+[175.0, 275.01, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[172.01, 270.026, 90.0], cout->this@ANCHOR+[172.01, 657.01, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[175.0, 273.01599999999996, -135.00000000000057], cout->this@ANCHOR+[172.01, 270.026, -135.00000000000057]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[175.0, 275.01, -90.0], cout->this@ANCHOR+[175.0, 273.01599999999996, -90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[172.01, 676.5219999999999, 45.0000000000003], cout->this@ANCHOR+[183.00900000000001, 687.5210000000001, 45.0000000000003]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[172.01, 657.01, 90.0], cout->this@ANCHOR+[172.01, 676.5219999999999, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[183.0, 702.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[183.00900000000001, 701.991, 135.0], cout->this@ANCHOR+[183.0, 702.0, 135.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[183.00900000000001, 687.5210000000001, 90.0], cout->this@ANCHOR+[183.00900000000001, 701.991, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[183.0, 702.0, 90.0], cout->this@ANCHOR+[183.0, 753.016, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[195.01, 765.026, 90.00119493168795], cout->this@ANCHOR+[195.009, 812.975, 90.00119493168795]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[183.0, 753.016, 45.0], cout->this@ANCHOR+[195.01, 765.026, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[195.009, 812.975, 135.00000000000009], cout->this@ANCHOR+[159.0, 848.9839999999999, 135.00000000000009]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[159.0, 848.9839999999999, 90.0], cout->this@ANCHOR+[159.0, 900.0, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[630.0, 367.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 350.0, 90.0], cout->this@ANCHOR+[630.0, 367.0, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 367.0, 90.0], cout->this@ANCHOR+[630.0, 485.0, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 485.0, 45.0], cout->this@ANCHOR+[678.0, 533.0, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[678.0, 533.0, 0.0], cout->this@ANCHOR+[796.0, 533.0, 0.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[796.0, 533.0, 45.0], cout->this@ANCHOR+[851.0, 588.0, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[851.0, 588.0, 90.0], cout->this@ANCHOR+[851.0, 656.0, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[851.0, 656.0, 45.0], cout->this@ANCHOR+[874.0, 679.0, 45.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[874.0, 703.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[874.0, 679.0, 90.0], cout->this@ANCHOR+[874.0, 703.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[990.4699999999999, 807.958, 90.0], cout->this@ANCHOR+[990.4699999999999, 1038.811, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[990.4699999999999, 1038.811, 134.99999999999986], cout->this@ANCHOR+[969.0419999999999, 1060.239, 134.99999999999986]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[885.512, 703.0, 45.0], cout->this@ANCHOR+[990.4699999999999, 807.958, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[874.0, 703.0, 0.0], cout->this@ANCHOR+[885.512, 703.0, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[936.7189999999999, 1060.239, 134.99999999999991], cout->this@ANCHOR+[897.0, 1099.958, 134.99999999999991]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[969.0419999999999, 1060.239, 180.0], cout->this@ANCHOR+[936.7189999999999, 1060.239, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[936.7189999999999, 1139.6770000000001, 0.0], cout->this@ANCHOR+[968.997, 1139.6770000000001, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[897.0, 1099.958, 45.000000000000085], cout->this@ANCHOR+[936.7189999999999, 1139.6770000000001, 45.000000000000085]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[730.0, 371.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[730.0, 350.0, 90.0], cout->this@ANCHOR+[730.0, 371.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[730.0, 371.0, 90.0], cout->this@ANCHOR+[730.0, 496.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[752.49, 518.49, 0.0], cout->this@ANCHOR+[826.4899999999999, 518.49, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[730.0, 496.0, 45.0], cout->this@ANCHOR+[752.49, 518.49, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[826.4899999999999, 518.49, 0.0], cout->this@ANCHOR+[876.49, 518.49, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[876.49, 518.49, 45.0], cout->this@ANCHOR+[902.0, 544.0, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[902.0, 544.0, 90.0], cout->this@ANCHOR+[902.0, 668.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[902.0, 668.0, 45.0], cout->this@ANCHOR+[920.0, 686.0, 45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[920.0, 704.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[920.0, 686.0, 90.0], cout->this@ANCHOR+[920.0, 704.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1004.98, 1050.301, 134.99999999999966], cout->this@ANCHOR+[995.042, 1060.239, 134.99999999999966]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1004.98, 801.948, 90.0], cout->this@ANCHOR+[1004.98, 1050.301, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[920.0, 716.9680000000001, 44.999999999999964], cout->this@ANCHOR+[1004.98, 801.948, 44.999999999999964]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[920.0, 704.0, 90.0], cout->this@ANCHOR+[920.0, 716.9680000000001, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[830.0, 367.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 350.0, 90.0], cout->this@ANCHOR+[830.0, 367.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 367.0, 90.0], cout->this@ANCHOR+[830.0, 494.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[835.48, 506.48, 0.0012459667173956477], cout->this@ANCHOR+[881.465, 506.48099999999994, 0.0012459667173956477]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 501.0, 45.0], cout->this@ANCHOR+[835.48, 506.48, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 494.0, 90.0], cout->this@ANCHOR+[830.0, 501.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[914.01, 539.026, 90.0], cout->this@ANCHOR+[914.01, 663.026, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[881.465, 506.48099999999994, 45.00000000000005], cout->this@ANCHOR+[914.01, 539.026, 45.00000000000005]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[914.01, 663.026, 45.0], cout->this@ANCHOR+[935.984, 685.0, 45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[936.0, 704.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[935.984, 703.984, 45.0], cout->this@ANCHOR+[936.0, 704.0, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[935.984, 685.0, 90.0], cout->this@ANCHOR+[935.984, 703.984, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[988.042, 1099.958, 180.0], cout->this@ANCHOR+[923.0, 1099.958, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1016.99, 1071.01, 134.9999999999999], cout->this@ANCHOR+[988.042, 1099.958, 134.9999999999999]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1016.99, 796.9739999999999, 90.0], cout->this@ANCHOR+[1016.99, 1071.01, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[936.0, 715.9839999999999, 45.0], cout->this@ANCHOR+[1016.99, 796.9739999999999, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[936.0, 704.0, 90.0], cout->this@ANCHOR+[936.0, 715.9839999999999, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[929.0, 368.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[930.0, 367.0, 135.0], cout->this@ANCHOR+[929.0, 368.0, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[930.0, 350.0, 90.0], cout->this@ANCHOR+[930.0, 367.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[929.0, 368.0, 90.0], cout->this@ANCHOR+[929.0, 661.0319999999999, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[929.0, 661.0319999999999, 45.0], cout->this@ANCHOR+[953.0, 685.0319999999999, 45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[953.0, 704.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[953.0, 685.0319999999999, 90.0], cout->this@ANCHOR+[953.0, 704.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1029.0, 1105.674, 134.99999999999983], cout->this@ANCHOR+[994.9970000000001, 1139.6770000000001, 134.99999999999983]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1029.0, 792.0, 90.0], cout->this@ANCHOR+[1029.0, 1105.674, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[953.0, 716.0, 45.0], cout->this@ANCHOR+[1029.0, 792.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[953.0, 704.0, 90.0], cout->this@ANCHOR+[953.0, 716.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 450.0, 90.0], cout->this@ANCHOR+[60.0, 483.0, 90.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[35.0, 516.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[35.0, 508.0, 90.0], cout->this@ANCHOR+[35.0, 516.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 483.0, 135.0], cout->this@ANCHOR+[35.0, 508.0, 135.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[35.0, 516.0, 90.0], cout->this@ANCHOR+[35.0, 652.0, 90.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[15.0, 672.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[35.0, 652.0, 135.0], cout->this@ANCHOR+[15.0, 672.0, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[15.0, 672.0, 90.0], cout->this@ANCHOR+[15.0, 1069.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 1124.0, 90.0], cout->this@ANCHOR+[70.0, 1203.7469999999998, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[15.0, 1069.0, 45.0], cout->this@ANCHOR+[70.0, 1124.0, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 1124.0, 90.0], cout->this@ANCHOR+[70.0, 1127.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[85.826, 1142.8259999999998, 0.0], cout->this@ANCHOR+[142.07600000000002, 1142.8259999999998, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 1127.0, 44.999999999999645], cout->this@ANCHOR+[85.826, 1142.8259999999998, 44.999999999999645]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 1203.7469999999998, 90.0], cout->this@ANCHOR+[70.0, 1227.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[107.668, 1264.668, 0.0], cout->this@ANCHOR+[139.368, 1264.668, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 1227.0, 44.999999999999915], cout->this@ANCHOR+[107.668, 1264.668, 44.999999999999915]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 450.0, 90.0], cout->this@ANCHOR+[160.0, 478.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 478.0, 135.0], cout->this@ANCHOR+[129.0, 509.0, 135.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[52.0, 517.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 509.0, 135.0], cout->this@ANCHOR+[52.0, 517.0, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[129.0, 509.0, 180.0], cout->this@ANCHOR+[60.0, 509.0, 180.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[52.0, 517.0, 90.0], cout->this@ANCHOR+[52.0, 660.0, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[31.0, 681.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[52.0, 660.0, 135.0], cout->this@ANCHOR+[31.0, 681.0, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[31.0, 681.0, 90.0], cout->this@ANCHOR+[31.0, 1064.48, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[31.0, 1064.48, 44.99999999999999], cout->this@ANCHOR+[88.52, 1122.0, 44.99999999999999]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[162.076, 1127.826, 90.0], cout->this@ANCHOR+[162.076, 1142.8259999999998, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[156.25, 1122.0, 45.00000000000014], cout->this@ANCHOR+[162.076, 1127.826, 45.00000000000014]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[88.52, 1122.0, 0.0], cout->this@ANCHOR+[156.25, 1122.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 450.0, 90.0], cout->this@ANCHOR+[260.0, 481.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[219.98999999999998, 521.01, 180.0], cout->this@ANCHOR+[103.0, 521.01, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 481.0, 135.00000000000003], cout->this@ANCHOR+[219.98999999999998, 521.01, 135.00000000000003]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[65.0, 524.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[67.99, 521.01, 134.9999999999999], cout->this@ANCHOR+[65.0, 524.0, 134.9999999999999]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[103.0, 521.01, 180.0], cout->this@ANCHOR+[67.99, 521.01, 180.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[65.0, 665.0, 135.0], cout->this@ANCHOR+[43.0, 687.0, 135.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[43.0, 687.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[65.0, 524.0, 90.0], cout->this@ANCHOR+[65.0, 665.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[43.0, 687.0, 90.0], cout->this@ANCHOR+[43.0, 1059.496, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[43.0, 1059.496, 44.99999999999996], cout->this@ANCHOR+[93.494, 1109.99, 44.99999999999996]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[174.08599999999998, 1122.8519999999999, 90.0], cout->this@ANCHOR+[174.08599999999998, 1179.914, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[161.225, 1109.991, 44.999999999999744], cout->this@ANCHOR+[174.08599999999998, 1122.8519999999999, 44.999999999999744]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[93.494, 1109.99, 0.0008459313978468392], cout->this@ANCHOR+[161.225, 1109.991, 0.0008459313978468392]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[150.253, 1203.7469999999998, 180.0], cout->this@ANCHOR+[90.0, 1203.7469999999998, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[174.08599999999998, 1179.914, 135.00000000000017], cout->this@ANCHOR+[150.253, 1203.7469999999998, 135.00000000000017]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[360.0, 450.0, 90.0], cout->this@ANCHOR+[360.0, 500.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[360.0, 500.0, 135.0], cout->this@ANCHOR+[326.0, 534.0, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[326.0, 534.0, 180.0], cout->this@ANCHOR+[77.0, 534.0, 180.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[77.0, 534.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[77.0, 534.0, 90.0], cout->this@ANCHOR+[77.0, 673.0, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[57.0, 693.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[77.0, 673.0, 135.0], cout->this@ANCHOR+[57.0, 693.0, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[186.096, 1237.94, 135.00000000000014], cout->this@ANCHOR+[159.36800000000002, 1264.668, 135.00000000000014]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[166.2, 1097.982, 44.999999999999915], cout->this@ANCHOR+[186.096, 1117.878, 44.999999999999915]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[98.47, 1097.982, 0.0], cout->this@ANCHOR+[166.2, 1097.982, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[55.010000000000005, 1054.522, 45.00000000000003], cout->this@ANCHOR+[98.47, 1097.982, 45.00000000000003]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[55.010000000000005, 694.99, 90.0], cout->this@ANCHOR+[55.010000000000005, 1054.522, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[186.096, 1117.878, 90.0], cout->this@ANCHOR+[186.096, 1237.94, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[57.0, 693.0, 134.9999999999998], cout->this@ANCHOR+[55.010000000000005, 694.99, 134.9999999999998]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 600.0, 90.0], cout->this@ANCHOR+[60.0, 637.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[105.52, 682.52, 0.0], cout->this@ANCHOR+[419.0, 682.52, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 637.0, 44.99999999999999], cout->this@ANCHOR+[105.52, 682.52, 44.99999999999999]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[419.0, 682.52]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[419.0, 682.52, 0.0], cout->this@ANCHOR+[549.0319999999999, 682.52, 0.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[549.0319999999999, 682.52, 44.999999999999844], cout->this@ANCHOR+[570.041, 703.529, 44.999999999999844]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[570.041, 703.529]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[570.041, 703.041, 90.0], cout->this@ANCHOR+[570.041, 703.529, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[570.041, 703.529, 45.000000000000036], cout->this@ANCHOR+[661.472, 794.96, 45.000000000000036]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[661.472, 794.96, 90.0], cout->this@ANCHOR+[661.472, 1099.528, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[634.0, 1127.0, 180.0], cout->this@ANCHOR+[593.0, 1127.0, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[522.0, 1315.0, 45.0], cout->this@ANCHOR+[595.0, 1388.0, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[880.5300000000001, 1585.5300000000002, 44.99999999999965], cout->this@ANCHOR+[899.042, 1604.042, 44.99999999999965]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[593.0, 1127.0, 135.0], cout->this@ANCHOR+[522.0, 1198.0, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[899.042, 1604.042, 90.0], cout->this@ANCHOR+[899.042, 1730.239, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[522.0, 1198.0, 90.0], cout->this@ANCHOR+[522.0, 1315.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[595.0, 1388.0, 0.0], cout->this@ANCHOR+[691.0, 1388.0, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[691.0, 1388.0, 44.999999999999964], cout->this@ANCHOR+[772.4720000000001, 1469.472, 44.999999999999964]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[772.4720000000001, 1469.472, 89.99826633848264], cout->this@ANCHOR+[772.473, 1502.521, 89.99826633848264]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[855.482, 1585.5300000000002, 0.0], cout->this@ANCHOR+[880.5300000000001, 1585.5300000000002, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[661.472, 1099.528, 135.0], cout->this@ANCHOR+[634.0, 1127.0, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[772.473, 1502.521, 45.000000000000085], cout->this@ANCHOR+[855.482, 1585.5300000000002, 45.000000000000085]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[827.0, 1769.9579999999999, 0.0], cout->this@ANCHOR+[828.0419999999999, 1769.9579999999999, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[867.761, 1730.239, 0.0], cout->this@ANCHOR+[899.042, 1730.239, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[828.0419999999999, 1769.9579999999999, -44.99999999999984], cout->this@ANCHOR+[867.761, 1730.239, -44.99999999999984]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[827.0, 1769.9579999999999, 90.0], cout->this@ANCHOR+[827.0, 1772.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[864.677, 1809.677, 0.0], cout->this@ANCHOR+[898.9970000000001, 1809.677, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[827.0, 1772.0, 44.999999999999915], cout->this@ANCHOR+[864.677, 1809.677, 44.999999999999915]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 600.0, 90.0], cout->this@ANCHOR+[160.0, 627.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[201.01, 668.01, 0.0], cout->this@ANCHOR+[418.445, 668.01, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 627.0, 45.0], cout->this@ANCHOR+[201.01, 668.01, 45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[418.445, 668.01]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[555.042, 668.01, 180.0], cout->this@ANCHOR+[418.445, 668.01, 180.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[576.0509999999999, 689.019, -134.99999999999986], cout->this@ANCHOR+[555.042, 668.01, -134.99999999999986]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[576.0509999999999, 689.019]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[576.016, 688.984, 45.0], cout->this@ANCHOR+[576.0509999999999, 689.019, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[955.761, 1730.239, 180.0], cout->this@ANCHOR+[925.042, 1730.239, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[984.98, 1701.02, 135.0], cout->this@ANCHOR+[955.761, 1730.239, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[966.052, 1571.02, 44.99999999999983], cout->this@ANCHOR+[984.98, 1589.9479999999999, 44.99999999999983]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[984.98, 1589.9479999999999, 90.0], cout->this@ANCHOR+[984.98, 1701.02, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[861.4920000000001, 1571.02, 0.0], cout->this@ANCHOR+[966.052, 1571.02, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[786.981, 1456.955, 89.9985514908482], cout->this@ANCHOR+[786.982, 1496.51, 89.9985514908482]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[786.982, 1496.51, 44.99999999999996], cout->this@ANCHOR+[861.4920000000001, 1571.02, 44.99999999999996]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[805.431, 1238.3990000000001, 90.0], cout->this@ANCHOR+[805.431, 1438.5030000000002, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[675.982, 1108.95, 45.0], cout->this@ANCHOR+[805.431, 1238.3990000000001, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[805.431, 1438.5030000000002, 134.99689470600785], cout->this@ANCHOR+[786.981, 1456.955, 134.99689470600785]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[675.9810000000001, 788.949, 89.99982095124858], cout->this@ANCHOR+[675.982, 1108.95, 89.99982095124858]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[576.0509999999999, 689.019, 44.999999999999936], cout->this@ANCHOR+[675.9810000000001, 788.949, 44.999999999999936]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 600.0, 90.0], cout->this@ANCHOR+[260.0, 617.0, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[420.0, 656.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[299.0, 656.0, 0.0], cout->this@ANCHOR+[420.0, 656.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 617.0, 45.0], cout->this@ANCHOR+[299.0, 656.0, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[420.0, 656.0, 0.0], cout->this@ANCHOR+[425.656, 656.0, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[560.016, 656.0, 45.0], cout->this@ANCHOR+[581.025, 677.009, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[425.656, 656.0, 0.0], cout->this@ANCHOR+[560.016, 656.0, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[581.025, 677.009]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[581.0079999999999, 676.9920000000001, 44.99999999980842], cout->this@ANCHOR+[581.025, 677.009, 44.99999999980842]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[996.99, 1720.6999999999998, 135.0], cout->this@ANCHOR+[947.732, 1769.9579999999999, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[947.732, 1769.9579999999999, 180.0], cout->this@ANCHOR+[853.0, 1769.9579999999999, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[996.99, 1584.9740000000002, 90.0], cout->this@ANCHOR+[996.99, 1720.6999999999998, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[866.466, 1559.01, 0.0], cout->this@ANCHOR+[971.026, 1559.01, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[798.991, 1491.535, 44.99999999999996], cout->this@ANCHOR+[866.466, 1559.01, 44.99999999999996]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[817.4409999999999, 1443.4769999999999, 134.99999999999983], cout->this@ANCHOR+[798.99, 1461.9279999999999, 134.99999999999983]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[971.026, 1559.01, 45.00000000000013], cout->this@ANCHOR+[996.99, 1584.9740000000002, 45.00000000000013]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[798.99, 1461.9279999999999, 89.99806478942514], cout->this@ANCHOR+[798.991, 1491.535, 89.99806478942514]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[817.4409999999999, 1233.425, 90.0], cout->this@ANCHOR+[817.4409999999999, 1443.4769999999999, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[687.991, 1103.975, 45.00000000000003], cout->this@ANCHOR+[817.4409999999999, 1233.425, 45.00000000000003]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[687.99, 783.9739999999999, 89.99982095124855], cout->this@ANCHOR+[687.991, 1103.975, 89.99982095124855]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[581.025, 677.009, 44.999999999999964], cout->this@ANCHOR+[687.99, 783.9739999999999, 44.999999999999964]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[360.0, 600.0, 0.0], cout->this@ANCHOR+[366.0, 600.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[366.0, 600.0, 45.0], cout->this@ANCHOR+[407.0, 641.0, 45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[420.0, 640.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[419.0, 641.0, -45.0], cout->this@ANCHOR+[420.0, 640.0, -45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[407.0, 641.0, 0.0], cout->this@ANCHOR+[419.0, 641.0, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[420.0, 640.0, 0.0], cout->this@ANCHOR+[561.0, 640.0, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[561.0, 640.0, 45.0], cout->this@ANCHOR+[586.0, 665.0, 45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[586.0, 665.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[586.0, 665.0, 45.0], cout->this@ANCHOR+[700.0, 779.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[700.0, 779.0, 90.0], cout->this@ANCHOR+[700.0, 1099.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[700.0, 1099.0, 45.0], cout->this@ANCHOR+[829.451, 1228.451, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[829.451, 1228.451, 90.0], cout->this@ANCHOR+[829.451, 1448.451, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[829.451, 1448.451, 135.00000000000037], cout->this@ANCHOR+[811.0, 1466.9019999999998, 135.00000000000037]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[811.0, 1486.5600000000002, 44.99999999999995], cout->this@ANCHOR+[871.4399999999999, 1547.0, 44.99999999999995]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[811.0, 1466.9019999999998, 90.0], cout->this@ANCHOR+[811.0, 1486.5600000000002, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[871.4399999999999, 1547.0, 0.0], cout->this@ANCHOR+[976.0, 1547.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[976.0, 1547.0, 45.0000000000001], cout->this@ANCHOR+[1008.9999999999999, 1580.0, 45.0000000000001]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1008.9999999999999, 1725.674, 135.0], cout->this@ANCHOR+[924.997, 1809.677, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1008.9999999999999, 1580.0, 90.0], cout->this@ANCHOR+[1008.9999999999999, 1725.674, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 316.0, 90.0], cout->this@ANCHOR+[60.0, 350.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[83.0, 293.0, 135.0], cout->this@ANCHOR+[60.0, 316.0, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[181.99, 280.49, 135.00000000000009], cout->this@ANCHOR+[169.48, 293.0, 135.00000000000009]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[169.48, 293.0, 180.0], cout->this@ANCHOR+[83.0, 293.0, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[269.00600000000003, 280.49, 180.0], cout->this@ANCHOR+[181.99, 280.49, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[281.01599999999996, 268.48, 134.9999999999999], cout->this@ANCHOR+[269.00600000000003, 280.49, 134.9999999999999]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[358.0, 268.48, 180.0], cout->this@ANCHOR+[281.01599999999996, 268.48, 180.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[359.0, 268.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[358.52, 268.48, -45.0], cout->this@ANCHOR+[359.0, 268.0, -45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[358.0, 268.48, 0.0], cout->this@ANCHOR+[358.52, 268.48, 0.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[359.0, 509.52, 45.0], cout->this@ANCHOR+[384.0, 534.52, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[359.0, 268.0, 90.0], cout->this@ANCHOR+[359.0, 509.52, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[384.0, 534.52, 0.0], cout->this@ANCHOR+[407.52, 534.52, 0.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[407.52, 534.52, 45.0], cout->this@ANCHOR+[420.0, 547.0, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[420.0, 607.0, 45.0], cout->this@ANCHOR+[438.49, 625.49, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[420.0, 547.0, 90.0], cout->this@ANCHOR+[420.0, 607.0, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[438.49, 625.49, 0.0], cout->this@ANCHOR+[514.0, 625.49, 0.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[514.0, 625.49]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[514.0, 625.49, 89.99940936448385], cout->this@ANCHOR+[514.0010000000001, 722.497, 89.99940936448385]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[514.0010000000001, 722.497, 45.000000000000036], cout->this@ANCHOR+[608.432, 816.928, 45.000000000000036]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[608.432, 1072.568, 135.0], cout->this@ANCHOR+[607.037, 1073.963, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[608.432, 816.928, 90.0], cout->this@ANCHOR+[608.432, 1072.568, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[607.037, 1073.963, 179.99840884835746], cout->this@ANCHOR+[571.028, 1073.964, 179.99840884835746]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[571.028, 1073.964, 134.9999999999999], cout->this@ANCHOR+[536.676, 1108.316, 134.9999999999999]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[536.676, 1108.316, 180.0], cout->this@ANCHOR+[497.316, 1108.316, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[497.316, 1108.316, -134.99999999999977], cout->this@ANCHOR+[490.0, 1101.0, -134.99999999999977]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[462.07599999999996, 1102.826, 90.0], cout->this@ANCHOR+[462.07599999999996, 1122.826, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[463.902, 1101.0, 135.0], cout->this@ANCHOR+[462.07599999999996, 1102.826, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[490.0, 1101.0, 180.0], cout->this@ANCHOR+[463.902, 1101.0, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[462.07599999999996, 1122.826, 180.0], cout->this@ANCHOR+[431.174, 1122.826, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[390.0, 1164.0, 90.0], cout->this@ANCHOR+[390.0, 1183.747, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[431.174, 1122.826, 135.0], cout->this@ANCHOR+[390.0, 1164.0, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[390.0, 1183.747, 90.0], cout->this@ANCHOR+[390.0, 1191.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[390.0, 1191.0, 45.0], cout->this@ANCHOR+[412.0, 1213.0, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[427.70000000000005, 1213.0, 45.000000000000156], cout->this@ANCHOR+[459.368, 1244.6680000000001, 45.000000000000156]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[412.0, 1213.0, 0.0], cout->this@ANCHOR+[427.70000000000005, 1213.0, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 350.0, -90.0], cout->this@ANCHOR+[160.0, 323.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 323.0, -45.0], cout->this@ANCHOR+[188.0, 295.0, -45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[275.01599999999996, 295.0, -44.999999999999865], cout->this@ANCHOR+[287.026, 282.99, -44.999999999999865]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[188.0, 295.0, 0.0], cout->this@ANCHOR+[275.01599999999996, 295.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[287.026, 282.99, 0.0], cout->this@ANCHOR+[374.0, 282.99, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[374.0, 282.99]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[374.0, 282.99, 90.0], cout->this@ANCHOR+[374.0, 503.966, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[374.0, 503.966, 90.0], cout->this@ANCHOR+[374.0, 504.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[390.01000000000005, 520.01, 0.0], cout->this@ANCHOR+[403.0, 520.01, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[374.0, 504.0, 44.9999999999999], cout->this@ANCHOR+[390.01000000000005, 520.01, 44.9999999999999]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[413.531, 520.011, 45.00000000000008], cout->this@ANCHOR+[434.51, 540.99, 45.00000000000008]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[403.0, 520.01, 0.005440677935572683], cout->this@ANCHOR+[413.531, 520.011, 0.005440677935572683]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[434.51, 600.51, 45.000000000000156], cout->this@ANCHOR+[444.97999999999996, 610.98, 45.000000000000156]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[434.51, 540.99, 90.0], cout->this@ANCHOR+[434.51, 600.51, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[528.51, 619.48, 90.0], cout->this@ANCHOR+[528.51, 626.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[520.01, 610.98, 45.0], cout->this@ANCHOR+[528.51, 619.48, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[444.97999999999996, 610.98, 0.0], cout->this@ANCHOR+[520.01, 610.98, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[528.51, 626.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[542.686, 1122.826, 180.0], cout->this@ANCHOR+[482.076, 1122.826, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[577.039, 1088.473, 134.9999999999999], cout->this@ANCHOR+[542.686, 1122.826, 134.9999999999999]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[618.0400000000001, 1088.4720000000002, 179.99860257604726], cout->this@ANCHOR+[577.039, 1088.473, 179.99860257604726]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[622.942, 810.918, 90.0], cout->this@ANCHOR+[622.942, 1083.57, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[528.51, 716.486, 45.0], cout->this@ANCHOR+[622.942, 810.918, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[622.942, 1083.57, 134.999999999998], cout->this@ANCHOR+[618.0400000000001, 1088.4720000000002, 134.999999999998]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[528.51, 626.0, 90.0], cout->this@ANCHOR+[528.51, 716.486, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 350.0, -90.0], cout->this@ANCHOR+[260.0, 327.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 327.0, -45.0], cout->this@ANCHOR+[292.0, 295.0, -45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[386.0, 295.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[292.0, 295.0, 0.0], cout->this@ANCHOR+[386.0, 295.0, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[395.0, 508.0, 0.0], cout->this@ANCHOR+[407.0, 508.0, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[386.0, 499.0, 45.0], cout->this@ANCHOR+[395.0, 508.0, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[386.0, 295.0, 90.0], cout->this@ANCHOR+[386.0, 499.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[418.50399999999996, 508.0, 45.00000000000006], cout->this@ANCHOR+[446.52, 536.0160000000001, 45.00000000000006]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[407.0, 508.0, 0.0], cout->this@ANCHOR+[418.50399999999996, 508.0, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[446.52, 595.5200000000001, 44.99999999999953], cout->this@ANCHOR+[449.96999999999997, 598.97, 44.99999999999953]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[446.52, 536.0160000000001, 90.0], cout->this@ANCHOR+[446.52, 595.5200000000001, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[540.52, 614.506, 90.0], cout->this@ANCHOR+[540.52, 627.99, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[524.985, 598.971, 45.0], cout->this@ANCHOR+[540.52, 614.506, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[449.96999999999997, 598.97, 0.0007637909685840629], cout->this@ANCHOR+[524.985, 598.971, 0.0007637909685840629]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[540.52, 627.99]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[498.749, 1183.747, 180.0], cout->this@ANCHOR+[410.0, 1183.747, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[582.014, 1100.482, 134.99999999999997], cout->this@ANCHOR+[498.749, 1183.747, 134.99999999999997]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[623.015, 1100.481, 179.99860257604692], cout->this@ANCHOR+[582.014, 1100.482, 179.99860257604692]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[634.952, 1088.5439999999999, 134.99999999999972], cout->this@ANCHOR+[623.015, 1100.481, 134.99999999999972]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[634.952, 805.944, 90.0], cout->this@ANCHOR+[634.952, 1088.5439999999999, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[540.5210000000001, 711.5129999999999, 45.000000000000036], cout->this@ANCHOR+[634.952, 805.944, 45.000000000000036]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[540.52, 627.99, 89.99931401195461], cout->this@ANCHOR+[540.5210000000001, 711.5129999999999, 89.99931401195461]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[360.0, 350.0, 0.0], cout->this@ANCHOR+[389.0, 350.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[389.0, 350.0, 45.0], cout->this@ANCHOR+[417.0, 378.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[417.0, 378.0, 90.0], cout->this@ANCHOR+[417.0, 490.0, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[417.0, 489.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[417.0, 490.0, -90.0], cout->this@ANCHOR+[417.0, 489.0, -90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[417.0, 489.0, 45.0], cout->this@ANCHOR+[458.53, 530.53, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[458.53, 586.53, 45.0], cout->this@ANCHOR+[458.962, 586.962, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[458.53, 530.53, 90.0], cout->this@ANCHOR+[458.53, 586.53, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[552.53, 609.5319999999999, 90.0], cout->this@ANCHOR+[552.53, 627.99, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[529.96, 586.962, 45.0], cout->this@ANCHOR+[552.53, 609.5319999999999, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[458.962, 586.962, 0.0], cout->this@ANCHOR+[529.96, 586.962, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[552.53, 627.99]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[479.368, 1220.112, 90.0], cout->this@ANCHOR+[479.368, 1244.6680000000001, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[627.99, 1112.49, 179.99860257604692], cout->this@ANCHOR+[586.989, 1112.491, 179.99860257604692]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[586.989, 1112.491, 135.0], cout->this@ANCHOR+[479.368, 1220.112, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[646.962, 1093.518, 135.0], cout->this@ANCHOR+[627.99, 1112.49, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[646.962, 800.9699999999999, 90.0], cout->this@ANCHOR+[646.962, 1093.518, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[552.53, 706.538, 44.999999999999964], cout->this@ANCHOR+[646.962, 800.9699999999999, 44.999999999999964]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[552.53, 627.99, 90.0], cout->this@ANCHOR+[552.53, 706.538, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[906.0, 1447.1970000000001, 44.999999999998934], cout->this@ANCHOR+[909.042, 1450.239, 44.999999999998934]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[906.0, 1410.488, 90.0], cout->this@ANCHOR+[906.0, 1447.1970000000001, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[715.491, 741.155, 45.00000000000005], cout->this@ANCHOR+[781.435, 807.099, 45.00000000000005]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[715.49, 687.49, 89.99893234362239], cout->this@ANCHOR+[715.491, 741.155, 89.99893234362239]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[691.0, 663.0, 45.0], cout->this@ANCHOR+[715.49, 687.49, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[655.0, 663.0, 0.0], cout->this@ANCHOR+[691.0, 663.0, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 638.0, 45.0], cout->this@ANCHOR+[655.0, 663.0, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 600.0, 90.0], cout->this@ANCHOR+[630.0, 638.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[876.719, 1450.239, 135.00000000000017], cout->this@ANCHOR+[837.0, 1489.9579999999999, 135.00000000000017]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[909.042, 1450.239, 180.0], cout->this@ANCHOR+[876.719, 1450.239, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[876.719, 1529.677, 0.0], cout->this@ANCHOR+[908.9970000000001, 1529.677, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[837.0, 1489.9579999999999, 45.0], cout->this@ANCHOR+[876.719, 1529.677, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[900.0, 1410.488, -135.0], cout->this@ANCHOR+[843.961, 1354.449, -135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[906.0, 1410.488, 180.0], cout->this@ANCHOR+[900.0, 1410.488, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[843.961, 1222.453, -134.99816729746055], cout->this@ANCHOR+[781.437, 1159.9250000000002, -134.99816729746055]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[843.961, 1354.449, -90.0], cout->this@ANCHOR+[843.961, 1222.453, -90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[781.437, 1159.9250000000002, -90.0], cout->this@ANCHOR+[781.437, 1116.437, -90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[781.435, 1116.4350000000002, 44.99999999511467], cout->this@ANCHOR+[781.437, 1116.437, 44.99999999511467]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[781.435, 807.099, 90.0], cout->this@ANCHOR+[781.435, 1116.4350000000002, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[795.944, 801.088, -135.0], cout->this@ANCHOR+[730.0, 735.144, -135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[730.0, 735.144, -90.0], cout->this@ANCHOR+[730.0, 600.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[795.946, 1153.916, -90.00127562070315], cout->this@ANCHOR+[795.945, 1109.0, -90.00127562070315]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[858.471, 1216.445, -134.99816732677104], cout->this@ANCHOR+[795.946, 1153.916, -134.99816732677104]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[858.471, 1348.4389999999999, -90.0], cout->this@ANCHOR+[858.471, 1216.445, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[902.0319999999999, 1392.0, -134.99999999999986], cout->this@ANCHOR+[858.471, 1348.4389999999999, -134.99999999999986]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[795.945, 1109.0, -90.00018607842344], cout->this@ANCHOR+[795.944, 801.088, -90.00018607842344]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[934.0, 1392.0, 180.0], cout->this@ANCHOR+[902.0319999999999, 1392.0, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[935.042, 1393.042, -135.00000000000313], cout->this@ANCHOR+[934.0, 1392.0, -135.00000000000313]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[935.042, 1450.239, -90.0], cout->this@ANCHOR+[935.042, 1393.042, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[970.0419999999999, 1489.9579999999999, 180.0], cout->this@ANCHOR+[863.0, 1489.9579999999999, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1002.99, 1457.01, 135.0000000000002], cout->this@ANCHOR+[970.0419999999999, 1489.9579999999999, 135.0000000000002]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[982.026, 1379.01, 45.000000000000156], cout->this@ANCHOR+[1002.99, 1399.9740000000002, 45.000000000000156]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[912.026, 1379.01, 0.0], cout->this@ANCHOR+[982.026, 1379.01, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[750.991, 739.151, 44.99999999999994], cout->this@ANCHOR+[807.9530000000001, 796.1129999999999, 44.99999999999994]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[750.99, 718.0260000000001, 89.99728777375294], cout->this@ANCHOR+[750.991, 739.151, 89.99728777375294]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1002.99, 1399.9740000000002, 90.0], cout->this@ANCHOR+[1002.99, 1457.01, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 639.0160000000001, 135.0], cout->this@ANCHOR+[750.99, 718.0260000000001, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 600.0, 90.0], cout->this@ANCHOR+[830.0, 639.0160000000001, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[906.025, 1379.009, -134.99999999999991], cout->this@ANCHOR+[870.481, 1343.465, -134.99999999999991]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[912.026, 1379.01, -179.9904522947873], cout->this@ANCHOR+[906.025, 1379.009, -179.9904522947873]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[870.481, 1343.465, -90.0], cout->this@ANCHOR+[870.481, 1211.4720000000002, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[870.481, 1211.4720000000002, -134.9986255060692], cout->this@ANCHOR+[807.9549999999999, 1148.943, -134.9986255060692]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[807.9530000000001, 1138.043, 45.00000000488533], cout->this@ANCHOR+[807.9549999999999, 1138.045, 45.00000000488533]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[807.9530000000001, 796.1129999999999, 90.0], cout->this@ANCHOR+[807.9530000000001, 1138.043, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[807.9549999999999, 1138.045, -90.00139592592278], cout->this@ANCHOR+[807.954, 1097.0, -90.00139592592278]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[807.9549999999999, 1148.943, -90.0], cout->this@ANCHOR+[807.9549999999999, 1138.045, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[930.0, 655.0, -90.0], cout->this@ANCHOR+[930.0, 600.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[899.0, 686.0, -45.0], cout->this@ANCHOR+[930.0, 655.0, -45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[981.323, 1529.677, -45.0], cout->this@ANCHOR+[1014.9999999999999, 1496.0, -45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1014.9999999999999, 1496.0, -90.0], cout->this@ANCHOR+[1014.9999999999999, 1395.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[987.0, 1367.0, 180.0], cout->this@ANCHOR+[911.0, 1367.0, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1014.9999999999999, 1395.0, -134.9999999999999], cout->this@ANCHOR+[987.0, 1367.0, -134.9999999999999]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[911.0, 1367.0, -135.0], cout->this@ANCHOR+[882.491, 1338.491, -135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[819.963, 791.139, -135.0], cout->this@ANCHOR+[763.0, 734.176, -135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[800.0, 686.0, 0.0], cout->this@ANCHOR+[899.0, 686.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[763.0, 734.176, -90.0], cout->this@ANCHOR+[763.0, 723.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[882.491, 1338.491, -90.0], cout->this@ANCHOR+[882.491, 1206.499, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[882.491, 1206.499, -134.99908367804008], cout->this@ANCHOR+[819.964, 1143.97, -134.99908367804008]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[934.997, 1529.677, 0.0], cout->this@ANCHOR+[981.323, 1529.677, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[819.963, 1079.0, -90.0], cout->this@ANCHOR+[819.963, 791.139, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[819.964, 1143.97, -90.00088188055278], cout->this@ANCHOR+[819.963, 1079.0, -90.00088188055278]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[763.0, 723.0, -45.0], cout->this@ANCHOR+[800.0, 686.0, -45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 100.0, -90.0], cout->this@ANCHOR+[60.0, 56.0, -90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 56.0, -45.0], cout->this@ANCHOR+[97.52, 18.48, -45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[181.0, 18.48, 0.0], cout->this@ANCHOR+[366.0, 18.48, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[97.52, 18.48, 0.0], cout->this@ANCHOR+[181.0, 18.48, 0.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[366.0, 18.48]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[380.64599999999996, 18.48, 0.0], cout->this@ANCHOR+[461.0, 18.48, 0.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[366.0, 18.48, 0.0], cout->this@ANCHOR+[380.64599999999996, 18.48, 0.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[461.0, 18.48]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[457.001, 22.479, 90.0], cout->this@ANCHOR+[457.001, 50.999, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[461.0, 18.48, 135.00000000000017], cout->this@ANCHOR+[457.001, 22.479, 135.00000000000017]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[457.001, 50.999, 135.0], cout->this@ANCHOR+[420.0, 88.0, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[420.0, 88.0, 90.0], cout->this@ANCHOR+[420.0, 360.48, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[436.01, 771.76, 45.0], cout->this@ANCHOR+[442.076, 777.826, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[436.01, 376.49, 90.0], cout->this@ANCHOR+[436.01, 771.76, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[420.0, 360.48, 45.0], cout->this@ANCHOR+[436.01, 376.49, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[370.0, 829.902, 90.0], cout->this@ANCHOR+[370.0, 838.7470000000001, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[422.076, 777.826, 135.0], cout->this@ANCHOR+[370.0, 829.902, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[442.076, 777.826, 180.0], cout->this@ANCHOR+[422.076, 777.826, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[410.921, 899.668, 0.0], cout->this@ANCHOR+[439.368, 899.668, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[370.0, 858.7470000000001, 44.999999999999964], cout->this@ANCHOR+[410.921, 899.668, 44.999999999999964]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[370.0, 838.7470000000001, 90.0], cout->this@ANCHOR+[370.0, 858.7470000000001, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 100.0, -90.0], cout->this@ANCHOR+[160.0, 60.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[187.01000000000002, 32.99, 0.0], cout->this@ANCHOR+[381.0, 32.99, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 60.0, -44.99999999999998], cout->this@ANCHOR+[187.01000000000002, 32.99, -44.99999999999998]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[381.0, 32.99]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[381.0, 32.99, 0.0], cout->this@ANCHOR+[386.656, 32.99, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[479.0, 33.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[478.99, 32.99, 45.00000000002036], cout->this@ANCHOR+[479.0, 33.0, 45.00000000002036]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[386.656, 32.99, 0.0], cout->this@ANCHOR+[478.99, 32.99, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[462.07599999999996, 775.556, 90.0], cout->this@ANCHOR+[462.07599999999996, 777.826, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[434.51, 354.47, 44.9999999999999], cout->this@ANCHOR+[450.52, 370.47999999999996, 44.9999999999999]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[450.52, 764.0, 45.00000000000014], cout->this@ANCHOR+[462.07599999999996, 775.556, 45.00000000000014]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[434.51, 94.00999999999999, 90.0], cout->this@ANCHOR+[434.51, 354.47, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[471.511, 43.489, 90.00423754007917], cout->this@ANCHOR+[471.51, 57.01, 90.00423754007917]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[450.52, 370.47999999999996, 90.0], cout->this@ANCHOR+[450.52, 764.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[475.00100000000003, 39.999, 135.0000000000001], cout->this@ANCHOR+[471.511, 43.489, 135.0000000000001]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[475.00100000000003, 36.998999999999995, 90.0], cout->this@ANCHOR+[475.00100000000003, 39.999, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[471.51, 57.01, 135.0], cout->this@ANCHOR+[434.51, 94.00999999999999, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[479.0, 33.0, 134.9999999999998], cout->this@ANCHOR+[475.00100000000003, 36.998999999999995, 134.9999999999998]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 100.0, -90.0], cout->this@ANCHOR+[260.0, 68.0, -90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[391.0, 45.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[283.0, 45.0, 0.0], cout->this@ANCHOR+[391.0, 45.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 68.0, -45.0], cout->this@ANCHOR+[283.0, 45.0, -45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[490.0, 49.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[486.0, 45.0, 45.0], cout->this@ANCHOR+[490.0, 49.0, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[391.0, 45.0, 0.0], cout->this@ANCHOR+[486.0, 45.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[490.0, 49.0, 135.0], cout->this@ANCHOR+[487.481, 51.519000000000005, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[477.68699999999995, 838.7470000000001, 180.0], cout->this@ANCHOR+[390.0, 838.7470000000001, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[487.481, 828.9530000000001, 135.00000000000017], cout->this@ANCHOR+[477.68699999999995, 838.7470000000001, 135.00000000000017]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[487.481, 771.481, 90.0], cout->this@ANCHOR+[487.481, 828.9530000000001, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[462.53, 746.53, 45.0], cout->this@ANCHOR+[487.481, 771.481, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[462.53, 365.506, 90.0], cout->this@ANCHOR+[462.53, 746.53, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[446.52, 98.98400000000001, 90.0], cout->this@ANCHOR+[446.52, 349.496, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[446.52, 349.496, 45.0], cout->this@ANCHOR+[462.53, 365.506, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[483.51899999999995, 61.985, 134.99999999999997], cout->this@ANCHOR+[446.52, 98.98400000000001, 134.99999999999997]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[483.51899999999995, 55.481, 90.0], cout->this@ANCHOR+[483.51899999999995, 61.985, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[490.0, 49.0, 135.00000000000023], cout->this@ANCHOR+[483.51899999999995, 55.481, 135.00000000000023]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[360.0, 100.0, -45.0], cout->this@ANCHOR+[393.0, 67.0, -45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[418.0, 61.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[399.0, 61.0, 0.0], cout->this@ANCHOR+[418.0, 61.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[393.0, 67.0, -45.0], cout->this@ANCHOR+[399.0, 61.0, -45.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[504.0, 61.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[418.0, 61.0, 0.0], cout->this@ANCHOR+[504.0, 61.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[499.49100000000004, 876.509, 135.00000000000009], cout->this@ANCHOR+[476.332, 899.668, 135.00000000000009]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[476.332, 899.668, 180.0], cout->this@ANCHOR+[459.368, 899.668, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[499.49100000000004, 766.5070000000001, 90.0], cout->this@ANCHOR+[499.49100000000004, 876.509, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[474.54, 741.556, 45.0], cout->this@ANCHOR+[499.49100000000004, 766.5070000000001, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[474.54, 360.53200000000004, 90.0], cout->this@ANCHOR+[474.54, 741.556, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[458.53, 344.522, 45.0], cout->this@ANCHOR+[474.54, 360.53200000000004, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[458.53, 106.47, 90.0], cout->this@ANCHOR+[458.53, 344.522, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[504.0, 61.0, 135.00000000000003], cout->this@ANCHOR+[458.53, 106.47, 135.00000000000003]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 450.0, 90.0], cout->this@ANCHOR+[630.0, 476.0, 90.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[602.0, 510.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[602.0, 504.0, 90.0], cout->this@ANCHOR+[602.0, 510.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 476.0, 135.0], cout->this@ANCHOR+[602.0, 504.0, 135.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[602.0, 510.0, 90.0], cout->this@ANCHOR+[602.0, 651.0, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[602.0, 651.0, 45.0], cout->this@ANCHOR+[664.0, 713.0, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[664.0, 713.0, 0.0], cout->this@ANCHOR+[788.0, 713.0, 0.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[788.0, 733.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[788.0, 713.0, 90.0], cout->this@ANCHOR+[788.0, 733.0, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[788.0, 738.656, 45.00000000000007], cout->this@ANCHOR+[834.472, 785.128, 45.00000000000007]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[788.0, 733.0, 90.0], cout->this@ANCHOR+[788.0, 738.656, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[834.4730000000001, 1137.961, 45.00000000000004], cout->this@ANCHOR+[907.512, 1211.0, 45.00000000000004]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[834.472, 785.128, 89.99983761218617], cout->this@ANCHOR+[834.4730000000001, 1137.961, 89.99983761218617]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[919.803, 1211.0, 45.00000000000007], cout->this@ANCHOR+[969.0419999999999, 1260.239, 45.00000000000007]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[907.512, 1211.0, 0.0], cout->this@ANCHOR+[919.803, 1211.0, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[936.7189999999999, 1260.239, 135.00000000000009], cout->this@ANCHOR+[897.0, 1299.9579999999999, 135.00000000000009]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[969.0419999999999, 1260.239, 180.0], cout->this@ANCHOR+[936.7189999999999, 1260.239, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[936.7189999999999, 1339.677, 0.0], cout->this@ANCHOR+[968.997, 1339.677, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[897.0, 1299.9579999999999, 45.000000000000085], cout->this@ANCHOR+[936.7189999999999, 1339.677, 45.000000000000085]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[730.0, 450.0, 90.0], cout->this@ANCHOR+[730.0, 477.0, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[621.0, 509.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[698.0, 509.0, 180.0], cout->this@ANCHOR+[621.0, 509.0, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[730.0, 477.0, 135.0], cout->this@ANCHOR+[698.0, 509.0, 135.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[617.001, 512.999, 90.0], cout->this@ANCHOR+[617.001, 645.481, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[621.0, 509.0, 135.0], cout->this@ANCHOR+[617.001, 512.999, 135.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[617.001, 645.481, 45.0], cout->this@ANCHOR+[667.52, 696.0, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[668.0, 696.0, 45.0], cout->this@ANCHOR+[670.49, 698.49, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[667.52, 696.0, 0.0], cout->this@ANCHOR+[668.0, 696.0, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[670.49, 698.49, 0.0], cout->this@ANCHOR+[798.49, 698.49, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[804.0, 729.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[804.0, 704.0, 90.0], cout->this@ANCHOR+[804.0, 729.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[798.49, 698.49, 45.0], cout->this@ANCHOR+[804.0, 704.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[804.0, 729.0, 45.00000000000065], cout->this@ANCHOR+[809.01, 734.0100000000001, 45.00000000000065]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[809.01, 734.0100000000001, 0.0], cout->this@ANCHOR+[820.042, 734.0100000000001, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[848.981, 762.949, 89.99984472730559], cout->this@ANCHOR+[848.982, 1131.95, 89.99984472730559]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[820.042, 734.0100000000001, 44.99999999999989], cout->this@ANCHOR+[848.981, 762.949, 44.99999999999989]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[848.982, 1131.95, 45.0], cout->this@ANCHOR+[908.0319999999999, 1191.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[908.0319999999999, 1191.0, 0.0], cout->this@ANCHOR+[966.0, 1191.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[995.042, 1220.0420000000001, 90.0], cout->this@ANCHOR+[995.042, 1260.239, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[966.0, 1191.0, 45.000000000000114], cout->this@ANCHOR+[995.042, 1220.0420000000001, 45.000000000000114]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 450.0, 90.0], cout->this@ANCHOR+[830.0, 483.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[791.99, 521.01, 180.0], cout->this@ANCHOR+[630.0, 521.01, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[830.0, 483.0, 135.0], cout->this@ANCHOR+[791.99, 521.01, 135.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[630.0, 521.01]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 521.01, 90.0], cout->this@ANCHOR+[630.0, 641.496, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[630.0, 641.496, 44.999999999999915], cout->this@ANCHOR+[667.7520000000001, 679.2479999999999, 44.999999999999915]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[672.494, 683.99, 0.0], cout->this@ANCHOR+[672.99, 683.99, 0.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[667.7520000000001, 679.2479999999999, 45.00000000000069], cout->this@ANCHOR+[672.494, 683.99, 45.00000000000069]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[675.48, 686.48, 0.0], cout->this@ANCHOR+[810.48, 686.48, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[818.0, 722.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[818.0, 694.0, 90.0], cout->this@ANCHOR+[818.0, 722.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[810.48, 686.48, 45.0], cout->this@ANCHOR+[818.0, 694.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[818.0, 722.0, 0.0], cout->this@ANCHOR+[825.016, 722.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[825.016, 722.0, 45.0], cout->this@ANCHOR+[860.99, 757.974, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[860.991, 1126.9750000000001, 44.999999999999936], cout->this@ANCHOR+[911.026, 1177.01, 44.999999999999936]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[860.99, 757.974, 89.99984472730559], cout->this@ANCHOR+[860.991, 1126.9750000000001, 89.99984472730559]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[911.026, 1177.01, 0.0], cout->this@ANCHOR+[1012.0260000000001, 1177.01, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1012.0260000000001, 1177.01, 45.00000000000094], cout->this@ANCHOR+[1018.99, 1183.9740000000002, 45.00000000000094]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1018.99, 1258.893, 45.00000000032569], cout->this@ANCHOR+[1018.9999999999999, 1258.903, 45.00000000032569]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1018.99, 1183.9740000000002, 90.0], cout->this@ANCHOR+[1018.99, 1258.893, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1018.9999999999999, 1258.903, 90.0], cout->this@ANCHOR+[1018.9999999999999, 1279.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1018.9999999999999, 1279.0, 134.99999999999986], cout->this@ANCHOR+[997.0, 1301.0, 134.99999999999986]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[924.042, 1301.0, -134.99999999999687], cout->this@ANCHOR+[923.0, 1299.9579999999999, -134.99999999999687]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[997.0, 1301.0, 180.0], cout->this@ANCHOR+[924.042, 1301.0, 180.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[672.99, 683.99, 45.0], cout->this@ANCHOR+[675.48, 686.48, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[930.0, 450.0, 90.0], cout->this@ANCHOR+[930.0, 490.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[930.0, 490.0, 134.99999999999991], cout->this@ANCHOR+[886.98, 533.0200000000001, 134.99999999999991]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[647.0, 534.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[647.98, 533.0200000000001, 135.00000000000333], cout->this@ANCHOR+[647.0, 534.0, 135.00000000000333]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[886.98, 533.0200000000001, 180.0], cout->this@ANCHOR+[647.98, 533.0200000000001, 180.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[647.0, 534.0, 135.0], cout->this@ANCHOR+[642.01, 538.99, 135.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[642.01, 636.01, 45.0], cout->this@ANCHOR+[680.47, 674.47, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[642.01, 538.99, 90.0], cout->this@ANCHOR+[642.01, 636.01, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[680.47, 674.47, 0.0], cout->this@ANCHOR+[824.47, 674.47, 0.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[833.0, 713.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[833.0, 683.0, 90.0], cout->this@ANCHOR+[833.0, 713.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[824.47, 674.47, 45.0], cout->this@ANCHOR+[833.0, 683.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1031.0, 1179.0, 90.0], cout->this@ANCHOR+[1031.0, 1303.674, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1016.9999999999999, 1165.0, 44.99999999999977], cout->this@ANCHOR+[1031.0, 1179.0, 44.99999999999977]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[916.0, 1165.0, 0.0], cout->this@ANCHOR+[1016.9999999999999, 1165.0, 0.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[1031.0, 1303.674, 135.0], cout->this@ANCHOR+[994.9970000000001, 1339.677, 135.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[873.0, 1122.0, 45.0], cout->this@ANCHOR+[916.0, 1165.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[873.0, 753.0, 90.0], cout->this@ANCHOR+[873.0, 1122.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[833.0, 713.0, 45.0], cout->this@ANCHOR+[873.0, 753.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 200.0, 90.0], cout->this@ANCHOR+[60.0, 238.0, 90.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[129.0, 276.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[98.0, 276.0, 0.0], cout->this@ANCHOR+[129.0, 276.0, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[60.0, 238.0, 45.0], cout->this@ANCHOR+[98.0, 276.0, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[129.0, 276.0, 45.0], cout->this@ANCHOR+[133.0, 280.0, 45.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[133.0, 280.0, 90.0], cout->this@ANCHOR+[133.0, 692.0, 90.0]: 15.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[143.0, 704.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[143.0, 702.0, 90.0], cout->this@ANCHOR+[143.0, 704.0, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[133.0, 692.0, 45.0], cout->this@ANCHOR+[143.0, 702.0, 45.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[143.0, 776.9019999999999, 134.99999999999648], cout->this@ANCHOR+[142.07600000000002, 777.826, 134.99999999999648]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[143.0, 704.0, 90.0], cout->this@ANCHOR+[143.0, 776.9019999999999, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 829.902, 90.0], cout->this@ANCHOR+[70.0, 838.7470000000001, 90.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[122.07600000000001, 777.826, 135.0], cout->this@ANCHOR+[70.0, 829.902, 135.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[142.07600000000002, 777.826, 180.0], cout->this@ANCHOR+[122.07600000000001, 777.826, 180.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[110.921, 899.668, 0.0], cout->this@ANCHOR+[139.368, 899.668, 0.0]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 858.7470000000001, 44.99999999999995], cout->this@ANCHOR+[110.921, 899.668, 44.99999999999995]: 15.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[70.0, 838.7470000000001, 90.0], cout->this@ANCHOR+[70.0, 858.7470000000001, 90.0]: 15.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[147.51, 273.99, 90.0], cout->this@ANCHOR+[147.51, 685.99, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[159.0, 707.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[159.0, 697.48, 90.0], cout->this@ANCHOR+[159.0, 707.0, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[147.51, 685.99, 45.0], cout->this@ANCHOR+[159.0, 697.48, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[159.0, 774.75, 45.00000000000027], cout->this@ANCHOR+[162.076, 777.826, 45.00000000000027]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[159.0, 707.0, 90.0], cout->this@ANCHOR+[159.0, 774.75, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[147.979, 273.521, 135.00000000000173], cout->this@ANCHOR+[147.51, 273.99, 135.00000000000173]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[147.979, 260.013, 90.0], cout->this@ANCHOR+[147.979, 273.521, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 200.0, 90.0], cout->this@ANCHOR+[160.0, 247.992, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 247.992, 135.0], cout->this@ANCHOR+[147.979, 260.013, 135.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[147.51, 273.99]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[260.0, 239.971, -90.0], cout->this@ANCHOR+[260.0, 200.0, -90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[246.0, 253.971, -45.0], cout->this@ANCHOR+[260.0, 239.971, -45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[171.004, 253.97199999999998, -0.0007639844726162966], cout->this@ANCHOR+[246.0, 253.971, -0.0007639844726162966]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[159.988, 264.988, -45.00000000000008], cout->this@ANCHOR+[171.004, 253.97199999999998, -45.00000000000008]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[160.0, 275.0]: wfix(4), 4);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[159.988, 274.988, 45.0], cout->this@ANCHOR+[160.0, 275.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[159.988, 264.988, 90.0], cout->this@ANCHOR+[159.988, 274.988, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 275.0, 90.0], cout->this@ANCHOR+[160.0, 345.52, 90.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 681.496, 45.0], cout->this@ANCHOR+[171.0, 692.496, 45.0]: 10.0);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[160.0, 345.52, 90.0], cout->this@ANCHOR+[160.0, 681.496, 90.0]: 10.0);
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[171.0, 705.0]: wfix(4), 4);
+
+    mask::CSselect("Met1");
+    ml::champheredStraight(cin->this@ANCHOR+[171.0, 692.496, 90.0], cout->this@ANCHOR+[171.0, 705.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[171.0, 705.0, 90.0], cout->this@ANCHOR+[171.0, 758.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[171.0, 758.0, 45.0], cout->this@ANCHOR+[183.0, 770.0, 45.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[183.0, 770.0, 90.0], cout->this@ANCHOR+[183.0, 808.0, 90.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[152.253, 838.7470000000001, 180.0], cout->this@ANCHOR+[90.0, 838.7470000000001, 180.0]: 10.0);
+
+    mask::CSselect("Met2");
+    ml::champheredStraight(cin->this@ANCHOR+[183.0, 808.0, 134.99999999999994], cout->this@ANCHOR+[152.253, 838.7470000000001, 134.99999999999994]: 10.0);
+
+};

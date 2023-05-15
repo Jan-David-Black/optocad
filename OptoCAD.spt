@@ -1,0 +1,65 @@
+///////////////////////////////
+/// OptoCAD
+/// based on NetRouting by F. Merget
+/// Author: JD Fischbach
+/// v1.0 RevA 21.09.2020
+
+class NetRouting(NetName_ = "Net01", Index = 0, Path_ = "./", wWG1_ = 0.4, wWG2_ = 2.0)
+{
+  int NetCount =  Index;
+  var ANCHOR;
+  string NetName = NetName_;
+  string Path = Path_;
+  double wWG1 = wWG1_, wWG2 = wWG2_;
+  var src = "T:\\PhoenixMaskEngineer\\NetRouting\\OptoCAD\\";
+  var NetFile = fopen(Path+NetName+".net", "w");
+  printf("Netfile = "+Path+NetName+".net"+"\n\n");
+
+
+  layout InitANCHOR(DocLayer) {
+     printf("Initializinig ANCHOR\n\n");
+     var currLay = mask::CSget();
+     mask::CSselect(DocLayer);
+     ANCHOR = ml::Circle(C->this@ANCHOR: 0.1);
+     ml::SysText(wher->this@ANCHOR+[0,-5]: NetName+"_ANCHOR", false, 10, Blocks);
+     mask::CSselect(currLay);
+     var NA_ = ml::getPort(ANCHOR@C);
+     fprintf(NetFile, "### "+NetName+"\n\n");
+     fprintf(NetFile, "NETANCHOR "+NA_.x+"; "+NA_.y+"; "+NA_.a+"\n");
+  };
+
+  function closeNet() {
+    fclose(NetFile);
+    sys::system(src+"optocad.bat"+" "+Path+NetName+".net");
+    return 1;
+  };
+
+  layout AddWG(WGName = "WG1") {
+    var INport = ml::diffPort(ANCHOR@C, this@IN);
+    var OUTport = ml::diffPort(ANCHOR@C, this@OUT);
+    var ANCHORport = ml::getPort(ANCHOR@C);
+    NetCount++;
+    //res::SetAccuracy(Double,"%1.3g");
+    res::SetAccuracy(Double,"%1.3f");
+    fprintf(NetFile, "\nNAME "+WGName+"_"+NetCount+"\n");
+    fprintf(NetFile, "ANCHOR "+ANCHORport.x+"; "+ANCHORport.y+"; "+ANCHORport.a+"\n");
+    double INx = 0.0+INport.x, INy = 0.0+INport.y, INa = 0.0+INport.a;
+    fprintf(NetFile, "START "+INport.x+"; "+INport.y+"; "+INport.a+"\n");
+    fprintf(NetFile, "END "+OUTport.x+"; "+OUTport.y+"; "+OUTport.a+"\n");
+    res::SetAccuracy(Double,"");
+  };
+
+  layout placeNet() {
+    // include NetName_LO.spt
+    if (sys::file_exist(Path+NetName+"_LO.spt")) {
+      printf("found the file: "+ Path+NetName+"_LO.spt\n");
+      string sptfile = Path+NetName+"_LO.spt";
+      //sys::DynamicCall(sptfile);
+      //sys::runScript(sptfile, true);
+      //printf("\n\n NetName = "+NetName+"\n\n");
+      sys::DynamicCall(NetName+"_LO", 0,0,0);
+    };
+
+  };
+
+}

@@ -1,0 +1,40 @@
+layout Routing_LO(ANCHORx, ANCHORy, ANCHORa) {
+    ml::setPort(this: ANCHOR->[ANCHORx, ANCHORy, ANCHORa]);
+    
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[320.521, 511.68499999999995, 0.0], cout->this@ANCHOR+[437.5, 511.68499999999995, 0.0]: wfix(15.0));
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[430.0, 504.18499999999995, 90.0], cout->this@ANCHOR+[430.0, 1140.49, 90.0]: wfix(15.0));
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[437.5, 1132.99, 180.0], cout->this@ANCHOR+[42.5, 1132.99, 180.0]: wfix(15.0));
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[50.0, 1125.49, 90.0], cout->this@ANCHOR+[50.0, 1157.5, 90.0]: wfix(15.0));
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[342.5, 1150.0, 0.0], cout->this@ANCHOR+[457.5, 1150.0, 0.0]: wfix(15.0));
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[450.0, 950.0]: wfix(8.0), 8.0);
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[450.0, 1157.5, -90.0], cout->this@ANCHOR+[450.0, 942.5, -90.0]: wfix(15.0));
+
+    mask::CSselect("Via2");
+    ml::Straight(ccen->this@ANCHOR+[450.0, 830.0]: wfix(8.0), 8.0);
+
+    mask::CSselect("Met1");
+    ml::Straight(cin->this@ANCHOR+[450.0, 957.5, -90.0], cout->this@ANCHOR+[450.0, 822.5, -90.0]: wfix(15.0));
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[450.0, 837.5, -90.0], cout->this@ANCHOR+[450.0, 452.5, -90.0]: wfix(15.0));
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[457.5, 460.0, 180.0], cout->this@ANCHOR+[292.5, 460.0, 180.0]: wfix(15.0));
+
+    mask::CSselect("Met2");
+    ml::Straight(cin->this@ANCHOR+[300.0, 452.5, 90.0], cout->this@ANCHOR+[300.0, 519.185, 90.0]: wfix(15.0));
+
+};
